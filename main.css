@@ -1,0 +1,158 @@
+*{
+   box-sizing:border-box;
+   margin:0;
+   padding:0;
+}
+@font-face{
+   font-family: Aaux ProBold OSF Regular;
+   src:url('../fonts/Aaux ProBold OSF Regular.ttf');
+}
+body{
+   font-family: Lato !important;
+}
+/* Header with Finance Mela Logo  */
+.header {
+   background-color: #000033;
+}
+.logo {
+   display: block;
+   margin: 0 auto;
+   padding: 10px;
+}
+
+/* two section(40%-60%) with Details  */
+.cyan {
+   background-color: #40E0D0;
+}
+.row {
+   overflow: hidden;
+}
+.clear-float {
+   clear: both;
+}
+.left {
+   float: left;
+   width: 40%;
+   margin-left: 120px;
+}
+.content {
+   color: #006a9e;
+   padding: 20px;
+   font-size: 18px;
+   font-weight: bold;
+}
+.btm-brdr {
+   border-bottom: 1px solid #006a9e;
+}
+ul li {
+   padding: 5px;
+   color: #006a9e;
+}
+.right {
+   float:right;
+   width: 50%;
+   position: relative;
+}
+
+.overlap-credit-card {
+   position: absolute;
+   left: 31%;
+   z-index: 60;
+   top: 23%;
+}
+
+
+     /* bank Bazaar card */
+.card {
+   display: inline-block;
+   background-color: #fff;
+   border-radius: 10px;
+   margin: 20px;
+}
+.card-header {
+   background-color: #006a9e;
+   text-align: center;
+   color: #fff;
+}
+.card-body {
+   padding: 20px;
+   height: 180px;
+}
+.card-text {
+   text-align: center;
+   padding: 25px;
+   color: #006a9e;
+   font-weight: bold;
+}
+.btn {
+   display: block;
+   background-color: #d44b5a;
+   border-radius: 4px;
+   width:250px;
+   text-align: center;
+   margin:0 auto;
+   border:0px;
+   padding:15px;
+   color: #fff;
+   font-size: 16px;
+
+   -webkit-box-shadow: 0px 5px 5px -1px rgba(169,41,55,1);
+   -moz-box-shadow: 0px 5px 5px -1px rgba(169,41,55,1);
+   box-shadow: 0px 5px 5px -1px rgba(169,41,55,1);
+}
+
+/* card details and user info (33-33-33) */
+.light-grey {
+   background-color: #D3D3D3;
+}
+.wrapper {
+   width: 100%
+}
+.contain {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 100px;
+   margin-right: 160px;
+   height: 220px;
+}
+.compre-card {
+   display: inline-block;
+   padding: 5px;
+   width: 33%;
+   text-align: center;
+}
+.get-card {
+   display: inline-block;
+   padding: 5px;
+   width: 33%;
+   text-align: center;
+}
+.user-review {
+   display: inline-block;
+   padding: 5px;
+   width: 33%;
+   text-align: center;
+}
+
+/* footer with Website Information links */
+.white {
+   background-color: #fff;
+}
+.footer {
+   text-align: center;
+   padding: 5px;
+}
+.links {
+   text-decoration: none;
+   color:#000;
+   padding:10px;
+}
+
+/* footer with Copyright */
+.copyright {
+   color: #fff;
+   padding: 8px;
+}
+.dark-grey {
+   background-color: #2F4F4F;
+}
